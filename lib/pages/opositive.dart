@@ -57,15 +57,22 @@ class OPositive extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Column(
+          
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 detils('Wazid Hossain', 'Colony', '01784880361'),
-                detils('Sujon (Gandu)', 'Colony', '01784880361'),
+                detils('Sujon (Gandu)', 'Colony', '01796723507'),
               ],
             ),
-            Row(),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                detils('Wahid Hossain', 'Colony', '01737997860'),
+                detils('Mehedi Hasan Anik', 'Colony', '01773208036'),
+              ],
+            ),
             Row(),
             Row(),
           ],

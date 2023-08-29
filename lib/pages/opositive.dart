@@ -59,6 +59,7 @@ class OPositive extends StatelessWidget {
         child: Column(
           
           children: [
+            // to use column and see what happend
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
@@ -80,7 +81,18 @@ class OPositive extends StatelessWidget {
                 detils('Jakir (daddu)', 'Colony', '01764948406'),
               ],
             ),
+            Row(
+              // prestice what happned if use column
+              children: [
+                detils('Jony Bhai (Bkash)', 'Colony', '01911663468'),
+                detils('Jony Bhai (Bkash)', 'Colony', '01911663468'),
+              ],
+            ),
             Row(),
+            Row(),
+            Row(),
+            Row(),
+            
           ],
         )
       ),

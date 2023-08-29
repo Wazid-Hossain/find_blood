@@ -73,7 +73,13 @@ class OPositive extends StatelessWidget {
                 detils('Mehedi Hasan Anik', 'Colony', '01773208036'),
               ],
             ),
-            Row(),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                detils('Jony Bhai (Bkash)', 'Colony', '01911663468'),
+                detils('Jakir (daddu)', 'Colony', '01764948406'),
+              ],
+            ),
             Row(),
           ],
         )
